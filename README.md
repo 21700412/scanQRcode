@@ -1,7 +1,7 @@
 # scanQRcode
 Page web de lecture de QRcodes
 
-# Lecteur web de QRcode
+## Lecteur web de QRcode
 
 Fonctionnalitées
 * connection au flux vidéo de la caméra
