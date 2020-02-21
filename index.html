@@ -4,19 +4,22 @@
 <head>
     <meta charset="utf-8">
     <title>QRCode Reader</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="webcamQR.js"></script>
     <script src="jsQR.js"></script>
 </head>
 
+
+
 <body>
     <h1>Présente ton QRcode devant la caméra</h1>
-    
+
     <div class="camera">
         <video id="video">Flux vidéo indisponible</video>
         <button id="startbutton">Scanner un QRcode</button>
     </div>
     <canvas id="canvas" style="display:none"></canvas>
-    <div id='datadiv'>
+    <div id="datadiv">
 
     </div>
 </body>

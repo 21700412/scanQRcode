@@ -39,7 +39,8 @@ window.onload = function () {
             streaming = true;
         }
     }, false);
-
+    
+    
     // prendre une photo pour detecter le QrCode
     startbutton.addEventListener('click', function (ev) {
         detect();

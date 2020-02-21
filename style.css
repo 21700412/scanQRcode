@@ -1,0 +1,11 @@
+#startbutton:hover {
+    background-color: lightskyblue;
+}
+
+#startbutton {
+    background-color: white;
+    border-radius: 10px;
+    border: 4px solid black;
+    height: 50px;
+}
+
