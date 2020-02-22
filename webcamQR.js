@@ -71,6 +71,7 @@ window.onload = function () {
                     node.setAttribute('href',lien);
                     var txt = document.createTextNode(lien);
                     node.appendChild(txt);
+                    datadiv.innerText='';
                     datadiv.appendChild(node);
                 } else {
                     datadiv.innerText = lien;
