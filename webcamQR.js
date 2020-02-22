@@ -9,7 +9,7 @@ window.onload = function () {
 
     //requete du flux vidéo
     navigator.mediaDevices.getUserMedia({
-            video: true,
+            video: {facingMode: "environment"},
             audio: false
         })
         .then(function (stream) {
